@@ -1,0 +1,240 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.auto-img {
+  width: 100%;
+  display: block;
+}
+
+.navbar {
+  padding: 5px 0;
+  margin-bottom: 0;
+  background-color: #fff;
+  border: none;
+}
+
+.navbar-brand {
+  padding: 0px 15px;
+}
+
+.navbar-brand img {
+  width: 180px;
+  height: auto;
+  margin-top: 5px;
+}
+
+.top {
+  padding-top: 10px;
+  padding-left: 26px;
+  padding-right: 26px;
+
+}
+
+.nav li {
+  background: none;
+}
+
+.nav li a {
+  padding-left: 80px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  padding-left: 100px;
+  background: none;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+  background: none;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background: none;
+}
+
+.navbar-default .navbar-nav>li:hover>a {
+  color: rgba(186, 29, 29, 1);
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.container-fluid .poster {
+  padding: 0;
+}
+
+.container-fluid .row {
+  width: 100%;
+  margin: 0;
+}
+
+/* 头部 */
+
+
+.tab-menu {
+  overflow: hidden;
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  margin: 50px 0;
+}
+
+.tab-menu .tab-item {
+  float: left;
+  font-size: 12px;
+  padding: 5px 5px;
+  color: #909399;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.tab-menu .tab-item:hover {
+  background-color: rgba(186, 29, 29, 1);
+  color: rgba(255, 255, 255, 1);
+
+}
+.tab-menu .active{
+  background-color: rgba(186, 29, 29, 1);
+  color: rgba(255, 255, 255, 1);
+
+}
+.content p{
+  color: #909399;
+
+}
+.tab-text .content #container{
+  height: 300px;
+  margin: 50px 0;
+}
+.post{
+  padding-bottom: 100px;
+}
+.post .post-item{
+  padding: 20px 30px;
+  color: rgb(51, 51, 51);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.post .post-list li{
+  border-bottom: 1px solid rgba(153, 153, 153,.3);
+}
+.post .post-list .active{
+  background-color: #eee;
+
+}
+
+.post .post-discrible{
+  word-wrap: break-word;
+  color: rgb(153, 153, 153);
+  padding: 0 20px;
+  margin: 20px 0;
+  line-height: 24px;
+  border-left: 2px solid rgba(186, 29, 29, 1);
+  display: none;
+  transition: all .3s;
+}
+.post-list li:first-child .post-discrible{
+  display: block;
+}
+.input div{
+  margin: 10px 0;
+}
+.input input,
+.input textarea{
+  border: 1px solid rgba(153, 153, 153,.3);
+  padding: 15px;
+  outline: none;
+  width: 100%;
+}
+.input textarea{
+  resize: none;
+}
+.input input.btn{
+  width: 50%;
+  color: #eee;
+  background-color: rgba(186, 29, 29, 1);
+  outline: none;
+}
+.tab-text .join .inputs{
+  padding-bottom: 50px;
+}
+
+
+
+.footer {
+  background-color: #393939;
+  color: #a1a1a1;
+  padding: 50px 0 30px;
+}
+
+.footer .foot-note {
+  padding: 15px;
+  border-bottom: 1px solid #a1a1a1;
+  font-size: 12px;
+}
+
+.footer .contact {
+  margin-top: 50px;
+}
+
+.footer .contact p {
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 100;
+}
+
+.footer .contact li {
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+
+.contact .tabs {
+  padding: 20px;
+}
+
+.contact .codes p {
+  text-align: center;
+
+}
+
+.footer .contact .code {
+  padding: 30px;
+}
+/* 底部 */
+@media (min-width: 768px) {
+  .nav li a {
+    padding: 10px 6px;
+
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    padding: 0;
+    padding: 10px 10px;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    padding: 0;
+  }
+  .tab-menu .tab-item {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .tab-text .content #container{
+    height: 500px;
+  }
+
+}

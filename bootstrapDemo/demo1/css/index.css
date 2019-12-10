@@ -1,0 +1,379 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.auto-img {
+  width: 100%;
+  display: block;
+}
+
+.navbar {
+  padding: 5px 0;
+  margin-bottom: 0;
+  background-color: #fff;
+  border: none;
+}
+
+.navbar-brand {
+  padding: 0px 15px;
+}
+
+.navbar-brand img {
+  width: 180px;
+  height: auto;
+  margin-top: 5px;
+}
+ .top{
+  padding-top: 10px;
+  padding-left: 26px;
+  padding-right: 26px;
+
+}
+
+.nav li {
+  background: none;
+}
+
+.nav li a {
+  padding-left: 80px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  padding-left: 100px;
+  background: none;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+  background: none;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background: none; 
+}
+.navbar-default .navbar-nav>li:hover>a{
+  color: rgba(186, 29, 29, 1);
+}
+
+.mat {
+  height: 10px;
+}
+
+.discribe {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+  color: #fff;
+  width: 300px;
+}
+
+.discribe h5 {
+  font-size: 14px;
+}
+
+.discribe h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.discribe p {
+  font-size: 12px;
+}
+
+div.icons {
+  overflow: hidden;
+  padding: 26px 0;
+}
+
+.icons .col-xs-3 {
+  padding: 0 10px;
+}
+
+.icons .col-xs-3 .text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+div.icons .icon {
+  width: 30px;
+  margin: 0 auto;
+}
+
+.div.icons div.text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.panel-body p {
+  margin: 30px 0;
+  font-size: 12px;
+}
+
+.news h5 {
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.news p {
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+.news .time {
+  margin: 20px 0;
+}
+
+.exhibits {
+  padding: 50px 0;
+}
+
+.exhibits h5 {
+  padding: 0 10px;
+  color: rgba(136, 136, 136, 1);
+}
+
+.exhibits .photo {
+  padding: 20px;
+}
+
+#myModal .show-photo {
+  width: 100%;
+
+}
+
+.modal-body div.btn-prev,
+.modal-body div.btn-next {
+  height: 380px;
+  width: 45%;
+  position: absolute;
+  top: 10px;
+}
+
+.modal-body div.btn-prev {
+  left: 10px;
+}
+
+.modal-body div.btn-next {
+  right: 10px;
+}
+
+.footer {
+  background-color: #393939;
+  color: #a1a1a1;
+  padding: 50px 0 30px;
+}
+
+.footer .foot-note {
+  padding: 15px;
+  border-bottom: 1px solid #a1a1a1;
+  font-size: 12px;
+}
+
+.footer .contact {
+  margin-top: 50px;
+}
+
+.footer .contact p {
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 100;
+}
+
+.footer .contact li {
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+
+.contact .tabs {
+  padding: 20px;
+}
+
+.contact .codes p {
+  text-align: center;
+
+}
+
+.footer .contact .code {
+  padding: 30px;
+}
+
+.details {
+  padding-top: 50px;
+}
+
+.details .panel-default {
+  border: none;
+}
+
+.details .panel-default>.panel-heading {
+  background: none;
+}
+
+.details .panel-heading p {
+  margin: 20px 0;
+}
+
+.close span {
+  font-size: 40px;
+}
+
+.photo-head {
+  border: none;
+  padding: 15px 15px 0;
+
+
+}
+
+.photo-head h4 {
+  line-height: 25px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #999;
+}
+
+.album {
+  cursor: pointer;
+}
+
+
+
+
+@media (min-width: 415px) {
+  .discribe {
+    top: 90px;
+    left: 100px;
+  }
+
+  .discribe h5 {
+    font-size: 16px;
+  }
+
+  .discribe h3 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  .discribe p {
+    font-size: 14px;
+  }
+
+}
+
+.exhibits .row{
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .nav li a {
+    padding: 10px 6px;
+
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    padding: 0;
+    padding: 10px 10px;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    padding: 0;
+  }
+
+  .exhibits .photo {
+    border: 1px solid #999;
+  }
+
+  .discribe {
+    top: 150px;
+    left: 150px;
+    width: 400px;
+  }
+
+  .discribe h5 {
+    font-size: 20px;
+  }
+
+  .discribe h3 {
+    font-size: 32px;
+    margin: 10px 0;
+  }
+
+  .discribe p {
+    font-size: 14px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .nav li a {
+    padding: 10px 10px;
+
+  }
+  .news h5 {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  .news p {
+    font-size: 14px;
+  }
+
+  .panel-body p {
+    font-size: 14px;
+  }
+
+  .discribe {
+    top: 200px;
+    left: 150px;
+    width: 450px;
+  }
+
+  .discribe h5 {
+    font-size: 26px;
+  }
+
+  .discribe h3 {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+
+  .discribe p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .discribe {
+    top: 300px;
+    left: 200px;
+    width: 450px;
+  }
+
+  .discribe h5 {
+    font-size: 30px;
+  }
+
+  .discribe h3 {
+    font-size: 40px;
+    margin: 10px 0;
+    margin: 20px 0;
+  }
+
+  .discribe p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

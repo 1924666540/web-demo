@@ -1,0 +1,651 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.auto-img {
+  width: 100%;
+  display: block;
+}
+
+.header {
+  padding: 10px 0;
+  overflow: hidden;
+
+  .logo {
+    box-sizing: border-box;
+  }
+
+  .contact {
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    overflow: hidden;
+    color: #666;
+
+    span {
+      display: block;
+      float: left;
+    }
+
+    .title {
+      font-size: 14px;
+
+      text-align: center;
+    }
+
+    .colon {
+      font-size: 14px;
+
+    }
+
+    .number {
+      font-size: 14px;
+      color: #d5231b;
+    }
+  }
+
+  .menu-list {
+    overflow: hidden;
+
+    li {
+      float: right;
+      margin: 0 15px;
+      line-height: 40px;
+      cursor: pointer;
+      transition: all .3s;
+
+      &:hover {
+        color: #d5231b;
+      }
+    }
+  }
+
+  .meun-btn {
+    span {
+      display: block;
+      width: 30px;
+      height: 3px;
+      margin: 3px auto;
+      background-color: #ddd;
+    }
+  }
+
+  .menu-small {
+    width: 40%;
+    height: 100vh;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-right: none;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    right: -40%;
+    transition: all .3s;
+
+    .top {
+      width: 100%;
+      position: absolute;
+      padding: 5px;
+      top: 0;
+      left: 0;
+
+      .close {
+        width: 30px;
+        height: 30px;
+        margin: 20px;
+
+        span {
+          height: 3px;
+          width: 80%;
+          display: block;
+          background-color: #000;
+
+          &:nth-child(1) {
+            transform: rotate(45deg) translateX(12px) translateY(7px);
+          }
+
+          &:nth-child(2) {
+            transform: rotate(-45deg) translateX(-5px) translateY(10px);
+          }
+
+        }
+
+      }
+
+
+
+    }
+
+    .content {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+
+      li {
+        text-align: center;
+        padding: 20px;
+
+        &:hover {
+          background-color: #d5231b;
+          color: #fff;
+          transition: all .3s;
+        }
+      }
+    }
+  }
+}
+
+.aboutUs {
+  .paragraph {
+    padding: 50px 0;
+
+    .title {
+
+      .line {
+        width: 100px;
+        height: 3px;
+        background-color: #d5231b;
+      }
+
+      h5 {
+        font-size: 32px;
+        font-weight: bold;
+      }
+
+      .subhead {
+        font-size: 20px;
+        font-weight: bold;
+        color: #666666;
+      }
+    }
+
+    .text {
+      p {
+        line-height: 26px;
+        font-size: 12px;
+        margin: 30px 0;
+        color: #666666;
+      }
+    }
+
+    .slogan {
+      p {
+        &:nth-child(2) {
+          font-size: 12px;
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+
+  .server {
+    .card {
+      width: 100%;
+      padding: 20px;
+      margin-top: 20px;
+      background: #f4f4f4;
+
+      .img {
+        box-sizing: border-box;
+        padding: 0 36px;
+      }
+
+      p {
+        text-align: center;
+        margin: 0;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .mutual {
+    padding: 50px 0;
+
+    .top {
+      background-color: #d5231b;
+      display: flex;
+      padding: 10px 20px;
+      box-sizing: border-box;
+
+      .logo {
+        flex: 1;
+        box-sizing: border-box;
+
+      }
+
+      .content {
+        padding: 0 20px;
+        flex: 5;
+        color: #fff;
+
+        .text {
+          margin-left: 20px;
+          display: block;
+          float: left;
+
+          h6 {
+            font-size: 20px;
+          }
+
+          p {
+            font-size: 12px;
+          }
+
+        }
+
+      }
+    }
+
+    .form {
+
+      div {
+        width: 100%;
+        padding: 0 50px;
+        margin-top: 40px;
+
+        input {
+          width: 100%;
+          padding: 10px;
+
+          outline: none;
+          border: none;
+          border-bottom: 1px solid #999;
+        }
+
+      }
+
+      .feedback {
+        textarea {
+          width: 100%;
+          height: 100px;
+          resize: none;
+          outline: none;
+          border: none;
+          border-bottom: 1px solid #999;
+        }
+      }
+
+      .submit {
+        input {
+          padding: 20px 0;
+          background-color: #333;
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+
+    }
+  }
+}
+
+.case {
+  .title {
+    h5 {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: bold;
+      color: #666;
+    }
+  }
+
+  .labels {
+    padding-top: 30px;
+
+    ul {
+      overflow: hidden;
+
+      li {
+        float: left;
+        color: #333;
+        font-weight: normal;
+        background-color: #f4f4f4;
+        padding: 5px;
+        margin: 0 5px;
+      }
+    }
+  }
+
+  .img {
+    margin: 10px 0;
+    position: relative;
+
+    &:hover {
+      .mask {
+        opacity: 1;
+      }
+    }
+
+    .mask {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 20px;
+      opacity: 0;
+      transition: all .3s ease;
+
+      background: rgba(213, 35, 27, .7);
+
+      .border {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #fff;
+        padding-top: 25%;
+
+        p {
+          text-align: center;
+          color: #fff;
+
+          &:nth-child(2) {
+            font-size: 16px;
+            font-weight: bold;
+          }
+        }
+
+      }
+    }
+  }
+
+  .btn {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0;
+
+    span {
+
+      width: 20%;
+      height: 30px;
+      padding: 10px;
+      line-height: 30px;
+      box-sizing: content-box;
+      border: 2px solid #000;
+
+    }
+
+  }
+}
+
+.youshi {
+  .cards {
+    .card {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 20px;
+      margin-top: 10px;
+      color: #666;
+      transition: all .3s;
+      position: relative;
+
+      &:hover {
+        background-color: #d5231b;
+
+        h6 {
+          color: #fff;
+        }
+
+        p {
+          color: #fff;
+        }
+
+        .border {
+          display: block;
+        }
+
+      }
+
+      .icon {
+        padding: 0 120px;
+      }
+
+      h6 {
+        color: #000;
+        font-size: 16px;
+        margin: 10px 0;
+      }
+
+      p {
+        font-size: 12px;
+        padding: 0 20px;
+      }
+
+      .border {
+        width: 90%;
+        height: 90%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        display: none;
+        border: 1px solid #fff;
+        transition: all .3s;
+
+      }
+
+    }
+
+    &:nth-child(1) {
+      .card:hover {
+        background-color: #d5231b;
+
+        h6 {
+          color: #fff;
+        }
+
+        p {
+          color: #fff;
+        }
+
+        .icon {
+          img {
+            content: url(../img/ico-zhifu-b.svg);
+          }
+        }
+
+        .border {
+          display: block;
+        }
+
+      }
+    }
+
+    &:nth-child(2) {
+      .card:hover {
+        .icon {
+          img {
+            content: url(../img/ico-fujia-b.svg);
+          }
+        }
+
+
+      }
+    }
+
+    &:nth-child(3) {
+      .card:hover {
+        .icon {
+          img {
+            content: url(../img/ico-jianguan-b.svg);
+          }
+        }
+      }
+    }
+
+    &:nth-child(4) {
+      .card:hover {
+        .icon {
+          img {
+            content: url(../img/ico-zhibao-b.svg);
+          }
+        }
+      }
+    }
+  }
+
+  .img {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width:414px) {
+  .youshi {
+    .cards {
+      .card {
+        .icon {
+          padding: 0 150px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width:768px) {
+  .header {
+
+    .contact {
+
+      .title {
+        font-size: 14px;
+        width: 40px;
+      }
+
+      .colon {
+        font-size: 14px;
+
+        line-height: 40px;
+      }
+
+      .number {
+        font-size: 16px;
+        line-height: 40px;
+      }
+    }
+
+    .meun-btn {
+
+      margin: 10px auto;
+    }
+
+
+  }
+
+  .mutual {
+
+    .top {
+
+      .content {
+        &::before {
+          margin-top: 30px;
+        }
+
+        .text {
+
+          margin-top: 10px;
+
+        }
+
+      }
+    }
+
+
+  }
+
+  .youshi {
+    .cards {
+      .card {
+
+        .icon {
+
+          padding: 0 120px;
+        }
+
+      }
+    }
+  }
+
+
+}
+
+@media (min-width:1024px) {
+  .header {
+
+    .contact {
+      padding: 5px 0;
+
+      .colon {
+        font-size: 30px;
+      }
+
+      .number {
+        font-size: 25px;
+      }
+    }
+
+    .meun-btn {
+      margin: 20px 0;
+    }
+
+
+  }
+
+  .aboutUs {
+    .server {
+      .card {
+
+        .img {
+          box-sizing: border-box;
+          padding: 0 20px;
+        }
+
+      }
+    }
+
+    .mutual {
+
+      .top {
+
+        .content {
+          &::before {
+            margin-top: 30px;
+          }
+
+          .text {
+
+            margin-top: 20px;
+
+          }
+
+        }
+      }
+
+
+    }
+
+  }
+
+  .youshi {
+    .cards {
+      .card {
+
+        .icon {
+
+          padding: 0 180px;
+        }
+
+      }
+
+    }
+
+  }
+
+}

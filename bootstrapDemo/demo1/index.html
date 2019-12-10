@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>首页</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+  <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <nav class="top navbar navbar-default">
+    <div class=" container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-brand" href="#">
+          <!-- Brand -->
+          <img class="auto-img" src="./img/icon1.png" alt="">
+        </div>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">首页</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">关于我们 <span class="glyphicon glyphicon-menu-down"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="./aboutUs.html">关于我们</a></li>
+              <li><a href="./aboutUs.html">企业文化</a></li>
+              <li><a href="./aboutUs.html">合作伙伴</a></li>
+              <li><a href="./aboutUs.html">荣誉证书</a></li>
+            </ul>
+          </li>
+          <li><a href="./frame.html">集团构架</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">项目案例 <span class="glyphicon glyphicon-menu-down"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">建筑设计</a></li>
+              <li><a href="#">景观设计</a></li>
+              <li><a href="#">室内设计</a></li>
+              <li><a href="#">结构设计</a></li>
+            </ul>
+          </li>
+          <li><a href="./team.html">设计团队</a></li>
+          <li><a href="./press.html">新闻中心</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">加入我们 <span class="glyphicon glyphicon-menu-down"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="./joinUs.html">加入我们</a></li>
+              <li><a href="./joinUs.html">联系我们</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <!-- 轮播 -->
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- 指示器 -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    </ol>
+    <!-- 轮播图片及说明文字 -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="http://s-10733.p.cdn-static.cn/10733_15713877195266.png?imageView2/2/w/1740/q/75" alt="图片1">
+        <div class="discribe">
+          <h5>建筑行业网站</h5>
+          <h3>THICK FOUNDATION</h3>
+          <p>
+            是世界上最大、最具影响力的建筑、室内设计、工程和城市规划事务所之一。自1936年创立以来，本事务所已在逾50个国家完成了10,000多个项目 . . .
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="http://s-10733.p.cdn-static.cn/10733_15713878527727.png?imageView2/2/w/1740/q/75" alt="图片3">
+        <div class="discribe">
+          <h5>建筑行业网站</h5>
+          <h3>THICK FOUNDATION</h3>
+          <p>
+            是世界上最大、最具影响力的建筑、室内设计、工程和城市规划事务所之一。自1936年创立以来，本事务所已在逾50个国家完成了10,000多个项目 . . .
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- 控制按钮：左右切换 -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+
+  <div class="details container">
+    <div class="row cards">
+      <div class="col-xs-12 col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4>集团简介</h4>
+            <p>Group Introduction</p>
+          </div>
+          <div class="panel-body">
+            <p>汉匠国际设计集团是极富创新性的国际化设计集团，成立于2018年。旗下包括深圳市汉沙杨景观规划设计有限公司、深圳市盛朗（室内）艺术设计有限公司、汉匠建筑设计咨询（深圳）有限公司和椭圆方程（深圳）信息技术有限公司。
+              汉沙杨景观公司具有中国建设部颁发的风景园..<br>详情查看 》
+            </p>
+            <div class="icons row">
+              <div class="col-xs-3">
+                <div class="icon">
+                  <img class="img-responsive"
+                    src="http://s-10733.p.cdn-static.cn/10733_15713884331648.png?imageView2/2/w/192/q/75" alt="">
+                </div>
+                <div class="text">关于我们</div>
+              </div>
+              <div class="col-xs-3">
+                <div class="icon">
+                  <img class="img-responsive"
+                    src="http://s-10733.p.cdn-static.cn/10733_15713884414039.png?imageView2/2/w/192/q/75" alt="">
+                </div>
+                <div class="text">资质荣誉</div>
+              </div>
+              <div class="col-xs-3">
+                <div class="icon">
+                  <img class="img-responsive"
+                    src="http://s-10733.p.cdn-static.cn/10733_157138845103310.png?imageView2/2/w/192/q/75" alt="">
+                </div>
+                <div class="text">合作伙伴</div>
+              </div>
+              <div class="col-xs-3">
+                <div class="icon">
+                  <img class="img-responsive"
+                    src="http://s-10733.p.cdn-static.cn/10733_157138845830011.png?imageView2/2/w/192/q/75" alt="">
+                </div>
+                <div class="text">加入我们</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4>新闻资讯</h4>
+            <p>
+              <p>News information</p>
+            </p>
+          </div>
+          <div class="panel-body">
+            <div class="news">
+              <h5>汉匠万里挑一的选址 FAST为何选择这个"窝"里建</h5>
+              <p>
+                世界最大单口径射电望远镜今天在贵州省平塘县正式投入使用，这一500米口径的球面射电望远镜建设在喀斯特地貌天然形成的洼地中。
+              </p>
+              <p class="time">
+                2019-10-21 15:05:20
+              </p>
+            </div>
+            <div class="news">
+              <h5>汉匠设计的公寓，顶层一套售价3.6亿！</h5>
+              <p>
+                1000年历史最美野长城被抹平 文物局回应合理合法网友不买账。小河口是西沟村的一个自然屯，这里的长城因远处深山老林，距今已有700年历史，鲜为人知。
+              </p>
+              <p class="time">
+                2019-10-21 15:04:51
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container exhibits">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3 col-md-3 animated 1 bounceInDown delay-2s">
+        <h5>建筑设计</h5>
+        <div class="photo">
+          <img class="auto-img img-responsive"
+            src="http://s-10733.p.cdn-static.cn/10733_157139026369714.jpg?imageView2/2/w/363/q/75" alt="">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3  col-md-3 animated 1 bounceInDown delay-2s">
+        <h5>景观设计</h5>
+        <div class="photo">
+          <img class="auto-img img-responsive"
+            src="http://s-10733.p.cdn-static.cn/10733_157139028054215.jpg?imageView2/2/w/363/q/75" alt="">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3  col-md-3 animated 1 bounceInDown delay-2s">
+        <h5>室内设计</h5>
+        <div class="photo">
+          <img class="auto-img img-responsive"
+            src="http://s-10733.p.cdn-static.cn/10733_157139029584116.png?imageView2/2/w/363/q/75" alt="">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 animated 1 bounceInDown delay-2s">
+        <h5>结构设计</h5>
+        <div class="photo">
+          <img class="auto-img img-responsive"
+            src="http://s-10733.p.cdn-static.cn/10733_157139030768617.png?imageView2/2/w/363/q/75" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 相册-->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="photo-head modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">相册</h4>
+        </div>
+        <div class="modal-body album">
+          <img class="show-photo" src="" alt="">
+          <div class="btn-prev "></div>
+          <div class="btn-next "></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="foot-note col-xs-12">
+          COPYRIGHT (©) 2018汉匠（巴黎）国际设计集团公司模板
+        </div>
+      </div>
+      <div class="contact row">
+        <div class="col-xs-12 col-md-4">
+          <p>
+            中国互联网省域名市网站区666号
+          </p>
+          <p>
+            China Internet provincial domain name municipal net station area 666
+          </p>
+          <p>T. 100-0000-0000</p>
+          <p>F. 100-0000-0000</p>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <div class="row tabs">
+            <ul class="col-xs-3">
+              <li>关于我们</li>
+              <li>企业文化</li>
+              <li>合作伙伴</li>
+              <li>荣誉证书</li>
+            </ul>
+            <ul class="col-xs-3">
+              <li>项目案例</li>
+              <li>建筑设计</li>
+              <li>室内设计</li>
+              <li>景观设计</li>
+            </ul>
+            <ul class="col-xs-3">
+              <li>团队精英</li>
+              <li>新闻中心</li>
+              <li>联系我们</li>
+              <li>加入我们</li>
+            </ul>
+            <ul class="col-xs-3">
+              <li>建筑百科</li>
+              <li>如何设计</li>
+              <li>选材知识</li>
+              <li>百科全书</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <div class="row codes">
+            <div class="col-xs-6">
+              <div class="code">
+                <img class="img-responsive"
+                  src="http://s-10733.p.cdn-static.cn/10733_157138887169412.png?imageView2/2/w/257/q/75" alt="">
+              </div>
+              <p>关注我们</p>
+            </div>
+            <div class="col-xs-6">
+              <div class="code">
+                <img class="img-responsive"
+                  src="http://s-10733.p.cdn-static.cn/10733_157138887169412.png?imageView2/2/w/257/q/75" alt="">
+              </div>
+              <p>加入我们</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+  <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.bootcss.com/wow/1.1.2/wow.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

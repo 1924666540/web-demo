@@ -1,0 +1,154 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.auto-img {
+  width: 100%;
+  display: block;
+}
+
+.navbar {
+  padding: 5px 0;
+  margin-bottom: 0;
+  background-color: #fff;
+  border: none;
+}
+
+.navbar-brand {
+  padding: 0px 15px;
+}
+
+.navbar-brand img {
+  width: 180px;
+  height: auto;
+  margin-top: 5px;
+}
+
+.top {
+  padding-top: 10px;
+  padding-left: 26px;
+  padding-right: 26px;
+
+}
+
+.nav li {
+  background: none;
+}
+
+.nav li a {
+  padding-left: 80px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  padding-left: 100px;
+  background: none;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+  background: none;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background: none;
+}
+
+.navbar-default .navbar-nav>li:hover>a {
+  color: rgba(186, 29, 29, 1);
+}
+
+/* 头部 */
+
+.poster {
+  padding: 0;
+}
+
+.members{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.members .material{
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.material{
+  padding: 10px 0;
+}
+.material h4{
+  margin: 5px 0;
+}
+.material p{
+  color: rgba(153, 153, 153, 1);
+}
+
+
+.footer {
+  background-color: #393939;
+  color: #a1a1a1;
+  padding: 50px 0 30px;
+}
+
+.footer .foot-note {
+  padding: 15px;
+  border-bottom: 1px solid #a1a1a1;
+  font-size: 12px;
+}
+
+.footer .contact {
+  margin-top: 50px;
+}
+
+.footer .contact p {
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 100;
+}
+
+.footer .contact li {
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+
+.contact .tabs {
+  padding: 20px;
+}
+
+.contact .codes p {
+  text-align: center;
+
+}
+
+.footer .contact .code {
+  padding: 30px;
+}
+
+/* 底部 */
+
+@media (min-width: 768px) {
+  .nav li a {
+    padding: 10px 6px;
+
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    padding: 0;
+    padding: 10px 10px;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    padding: 0;
+  }
+
+}
